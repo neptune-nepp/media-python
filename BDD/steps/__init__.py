@@ -1,1 +1,0 @@
-print("O pacote BDD foi inicializado!")
