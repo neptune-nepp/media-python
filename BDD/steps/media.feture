@@ -6,6 +6,6 @@ Feature: Soma dois números e dividir por 2
 
 
     Scenario: Valores não inteiros não são aceitos
-        Given eu tenho dois números que não são inteiros: 2.5 e 4
+        Given eu tenho dois números que não são inteiros: 2.5 e 4.2
         When eu tento somar os dois números e dividir por 2
         Then uma exceção TypeError deve ser levantada

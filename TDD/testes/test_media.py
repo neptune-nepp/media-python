@@ -7,4 +7,4 @@ def test_media():
 
 def test_media_com_float():
     with pytest.raises(TypeError):
-        Calculadora.media(2.5, 4)
+        Calculadora.media(2.5, 4.2)
