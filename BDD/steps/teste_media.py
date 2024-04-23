@@ -1,6 +1,6 @@
 from behave import given, when, then
 
-@given('eu tenho dois números: {num1:d} e {num2:d}')
+@given('eu tenho dois números inteiros: {num1:d} e {num2:d}')
 def step_impl(context, num1, num2):
     context.num1 = num1
     context.num2 = num2

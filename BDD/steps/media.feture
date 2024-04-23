@@ -1,6 +1,6 @@
 Feature: Soma dois números e dividir por 2
     Sceneario: Realizar uma soma e divisão simples
-    Given eu tenho dois números: 2 e 4
+    Given eu tenho dois números inteiros: 2 e 4
     When eu somo os dois números e dividido por 2
     Then o resultado deve ser 3
 
