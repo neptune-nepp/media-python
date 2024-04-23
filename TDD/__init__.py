@@ -1,0 +1,1 @@
+print("O pacote TDD foi inicializado!")
